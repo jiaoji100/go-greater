@@ -52,32 +52,32 @@ func Convert2SetString(src []string) map[string]struct{} {
 	return out
 }
 
-func IsMemberInt(set map[int]struct{}, sub int) bool {
+func ContainsInt(set map[int]struct{}, sub int) bool {
 	_, ok := set[sub]
 	return ok
 }
 
-func IsMemberInt32(set map[int32]struct{}, sub int32) bool {
+func ContainsInt32(set map[int32]struct{}, sub int32) bool {
 	_, ok := set[sub]
 	return ok
 }
 
-func IsMemberInt64(set map[int64]struct{}, sub int64) bool {
+func ContainsInt64(set map[int64]struct{}, sub int64) bool {
 	_, ok := set[sub]
 	return ok
 }
 
-func IsMemberFloat32(set map[float32]struct{}, sub float32) bool {
+func ContainsFloat32(set map[float32]struct{}, sub float32) bool {
 	_, ok := set[sub]
 	return ok
 }
 
-func IsMemberFloat64(set map[float64]struct{}, sub float64) bool {
+func ContainsFloat64(set map[float64]struct{}, sub float64) bool {
 	_, ok := set[sub]
 	return ok
 }
 
-func IsMemberString(set map[string]struct{}, sub string) bool {
+func ContainsString(set map[string]struct{}, sub string) bool {
 	_, ok := set[sub]
 	return ok
 }
