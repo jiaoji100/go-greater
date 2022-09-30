@@ -1,6 +1,6 @@
-# slices
+# go-greater
 ```text
-greater functions for slice
+greater functions
 
-golang slice的一些增强函数
+golang的一些增强函数
 ```
