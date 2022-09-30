@@ -4,52 +4,52 @@
 // Description: set
 package set
 
-func Convert2SetInt(src []int) map[int]struct{} {
-	out := make(map[int]struct{}, len(src))
-	for _, v := range src {
-		out[v] = struct{}{}
+func Convert2SetInt(slice []int) map[int]struct{} {
+	set := make(map[int]struct{}, len(slice))
+	for _, v := range slice {
+		set[v] = struct{}{}
 	}
-	return out
+	return set
 }
 
-func Convert2SetInt32(src []int32) map[int32]struct{} {
-	out := make(map[int32]struct{}, len(src))
-	for _, v := range src {
-		out[v] = struct{}{}
+func Convert2SetInt32(slice []int32) map[int32]struct{} {
+	set := make(map[int32]struct{}, len(slice))
+	for _, v := range slice {
+		set[v] = struct{}{}
 	}
-	return out
+	return set
 }
 
-func Convert2SetInt64(src []int64) map[int64]struct{} {
-	out := make(map[int64]struct{}, len(src))
-	for _, v := range src {
-		out[v] = struct{}{}
+func Convert2SetInt64(slice []int64) map[int64]struct{} {
+	set := make(map[int64]struct{}, len(slice))
+	for _, v := range slice {
+		set[v] = struct{}{}
 	}
-	return out
+	return set
 }
 
-func Convert2SetFloat32(src []float32) map[float32]struct{} {
-	out := make(map[float32]struct{}, len(src))
-	for _, v := range src {
-		out[v] = struct{}{}
+func Convert2SetFloat32(slice []float32) map[float32]struct{} {
+	set := make(map[float32]struct{}, len(slice))
+	for _, v := range slice {
+		set[v] = struct{}{}
 	}
-	return out
+	return set
 }
 
-func Convert2SetFloat64(src []float64) map[float64]struct{} {
-	out := make(map[float64]struct{}, len(src))
-	for _, v := range src {
-		out[v] = struct{}{}
+func Convert2SetFloat64(slice []float64) map[float64]struct{} {
+	set := make(map[float64]struct{}, len(slice))
+	for _, v := range slice {
+		set[v] = struct{}{}
 	}
-	return out
+	return set
 }
 
-func Convert2SetString(src []string) map[string]struct{} {
-	out := make(map[string]struct{}, len(src))
-	for _, v := range src {
-		out[v] = struct{}{}
+func Convert2SetString(slice []string) map[string]struct{} {
+	set := make(map[string]struct{}, len(slice))
+	for _, v := range slice {
+		set[v] = struct{}{}
 	}
-	return out
+	return set
 }
 
 func ContainsInt(set map[int]struct{}, sub int) bool {
