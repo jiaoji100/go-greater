@@ -1,5 +1,4 @@
 // Package slices
-// Author: 919965111@qq.com
 // Date: 2022/9/30 10:12
 // Description:  slice greater functions
 package slices

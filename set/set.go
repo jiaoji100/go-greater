@@ -1,5 +1,4 @@
 // Package set
-// Author: 919965111@qq.com
 // Date: 2022/9/30 12:05
 // Description: set
 package set

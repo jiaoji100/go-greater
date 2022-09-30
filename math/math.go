@@ -1,5 +1,4 @@
 // Package math
-// Author: 919965111@staff.weibo.com
 // Date: 2022/9/30 13:14
 // Description:
 package math
