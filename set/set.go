@@ -4,7 +4,7 @@
 // Description: set
 package set
 
-func Convert2SetInt(slice []int) map[int]struct{} {
+func Slice2SetInt(slice []int) map[int]struct{} {
 	set := make(map[int]struct{}, len(slice))
 	for _, v := range slice {
 		set[v] = struct{}{}
@@ -12,7 +12,7 @@ func Convert2SetInt(slice []int) map[int]struct{} {
 	return set
 }
 
-func Convert2SetInt32(slice []int32) map[int32]struct{} {
+func Slice2SetInt32(slice []int32) map[int32]struct{} {
 	set := make(map[int32]struct{}, len(slice))
 	for _, v := range slice {
 		set[v] = struct{}{}
@@ -20,7 +20,7 @@ func Convert2SetInt32(slice []int32) map[int32]struct{} {
 	return set
 }
 
-func Convert2SetInt64(slice []int64) map[int64]struct{} {
+func Slice2SetInt64(slice []int64) map[int64]struct{} {
 	set := make(map[int64]struct{}, len(slice))
 	for _, v := range slice {
 		set[v] = struct{}{}
@@ -28,7 +28,7 @@ func Convert2SetInt64(slice []int64) map[int64]struct{} {
 	return set
 }
 
-func Convert2SetFloat32(slice []float32) map[float32]struct{} {
+func Slice2SetFloat32(slice []float32) map[float32]struct{} {
 	set := make(map[float32]struct{}, len(slice))
 	for _, v := range slice {
 		set[v] = struct{}{}
@@ -36,7 +36,7 @@ func Convert2SetFloat32(slice []float32) map[float32]struct{} {
 	return set
 }
 
-func Convert2SetFloat64(slice []float64) map[float64]struct{} {
+func Slice2SetFloat64(slice []float64) map[float64]struct{} {
 	set := make(map[float64]struct{}, len(slice))
 	for _, v := range slice {
 		set[v] = struct{}{}
@@ -44,7 +44,7 @@ func Convert2SetFloat64(slice []float64) map[float64]struct{} {
 	return set
 }
 
-func Convert2SetString(slice []string) map[string]struct{} {
+func Slice2SetString(slice []string) map[string]struct{} {
 	set := make(map[string]struct{}, len(slice))
 	for _, v := range slice {
 		set[v] = struct{}{}
